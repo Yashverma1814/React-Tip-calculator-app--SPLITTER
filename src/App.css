@@ -1,0 +1,14 @@
+* {
+  margin: 0px;
+  font-family: "Roboto Mono", monospace;
+}
+.billbox{
+  display: grid;
+  grid-template-columns: 50% 50%;
+  text-align: center;
+}
+.keypad{
+  display: grid;
+  grid-template-columns: repeat(1fr,3);
+
+}
